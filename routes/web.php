@@ -16,3 +16,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/', function () {                         return view('homepage');                       });
+
+
+Route::get('/autorijlessen', function () {                         return view('auto');                       });
+
+Route::get('/motorrijlessen', function () {                         return view('motor');                       });
+
+Route::get('/tarieven', function () {                         return view('prijs');                       });
+
+Route::get('/contact', function () {                         return view('contact');                       });
